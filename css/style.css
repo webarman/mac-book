@@ -1,0 +1,53 @@
+.half-section h1{
+    font-size: 45px;
+}
+.half-section p{
+    font-size: 20px;
+}
+
+.button-section button{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 19px;
+    border-radius: 8px;
+    margin-right: 20px;
+    outline: red;
+}
+.button-section button:hover{
+    background-color: rgb(77, 226, 97);
+    color: #fff;
+    border: 1px solid rgb(0, 255, 0);
+}
+hr{
+    margin: 0;
+}
+.hr{
+    border: 1.5px solid rgb(0, 0, 0);
+}
+.price-section h5{
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.promo-code input{
+    margin-right: 10px;
+    border: 0.4px solid #ddd;
+}
+.promo-code button{
+    background-color: rgb(77, 226, 97);
+    color: #fff;
+    font-weight: 500;
+
+}
+.promo-code button:hover{
+    background-color: black;
+}
+
+/* footer  */
+footer{
+    background-color: #f9f9f9;
+    border-top: 1.5px solid #f912f9;
+}
+footer h1{
+    font-size: 55px;
+}

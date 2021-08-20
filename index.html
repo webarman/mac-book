@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>mac-book</title>
+</head>
+
+<body>
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="img-fluid" width="550" src="images/mac.png" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="half-section">
+                    <h1 class="title">Customize your Blue 24-inch <br>
+                        iMac with Apple M1 chup.
+                    </h1>
+                    <p>Apple M1 chip with 8-core CPU 4 performance corse and 4 efficiency cores, 7 code CPU, and 16-core
+                        Neural Engine 8GB unified memory 256gb SSD storage Two Thunderbolt / USB 4 ports Magic Mouse
+                        Magic
+                        Keyboard-US English</p>
+
+                </div>
+                <!-- Memory -->
+                <div class="button-section">
+                    <div class="py-4">
+                        <h3>Memory</h3>
+                        <button id="memory-first-btn" class="py-2 px-3">8GB unified memory</button>
+                        <button id="memory-second-btn" class="py-2 px-3">16GB unified memory</button>
+                    </div>
+                    <!-- Storage -->
+                    <div class="py-3">
+                        <h3>Storage</h3>
+                        <button id="storage-first-btn" class="py-2 px-3">25GB SSD storage</button>
+                        <button id="storage-second-btn" class="py-2 px-3">512GB SSD storage</button>
+                        <button id="storage-third-btn" class="py-2 px-3">1TB SSD storage</button>
+                    </div>
+                    <!-- Choose your delivery option -->
+                    <div class="py-4">
+                        <h3>Choose your delivery option</h3>
+                        <button id="free-delivery" class="py-2 px-2">Friday, Aug 25 FREE Delivery</button>
+                        <button id="charge-delivery" class="py-2 px-2">Friday, Aug 21 Delivery charge $20</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 price-section py-5">
+                        <div class="d-flex justify-content-between">
+                            <h5>Best Price</h5>
+                            <h5>$<span id="best-price">1299</span></h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <h5>Extra Memory Cost</h5>
+                            <h5>$<span id="memory-cost">0</span></h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <h5>Extra Storage Cost</h5>
+                            <h5>$<span id="storage-cost">0</span></h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <h5>Delivery Charge</h5>
+                            <h5>$<span id="delivery-charge">0</span></h5>
+                        </div>
+                        <hr class="hr">
+                        <div class="d-flex justify-content-between">
+                            <h5>Total Price</h5>
+                            <h5>$<span id="total-amount">1299</span></h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex mt-3 promo-code">
+                            <input id="promo-input" class="py-2 text-center" type="text" placeholder="promo code">
+                            <button onclick="discound()" class=" form-control">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h1 class="text-center py-4">Total: $ <span id="MainAmount">1299</span></h1>
+    </footer>
+
+    <script>
+        
+
+
+    </script>
+
+    <script src="js/new.js"></script>
+</body>
+
+</html>
